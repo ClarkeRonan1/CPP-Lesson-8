@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section8" Database="" Version="10.0.0">
+  <Project Name="ExpressionsAndStatements" Path="ExpressionsAndStatements/ExpressionsAndStatements.project" Active="No"/>
+  <Project Name="Euros" Path="Euros/Euros.project" Active="No"/>
+  <Project Name="IncrementAndDecrement" Path="IncrementAndDecrement/IncrementAndDecrement.project" Active="No"/>
+  <Project Name="Operands" Path="Operands/Operands.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ExpressionsAndStatements" ConfigName="Debug"/>
+      <Project Name="Euros" ConfigName="Debug"/>
+      <Project Name="IncrementAndDecrement" ConfigName="Debug"/>
+      <Project Name="Operands" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ExpressionsAndStatements" ConfigName="Release"/>
+      <Project Name="Euros" ConfigName="Release"/>
+      <Project Name="IncrementAndDecrement" ConfigName="Release"/>
+      <Project Name="Operands" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
