@@ -3,7 +3,10 @@
   <Project Name="ExpressionsAndStatements" Path="ExpressionsAndStatements/ExpressionsAndStatements.project" Active="No"/>
   <Project Name="Euros" Path="Euros/Euros.project" Active="No"/>
   <Project Name="IncrementAndDecrement" Path="IncrementAndDecrement/IncrementAndDecrement.project" Active="No"/>
-  <Project Name="Operands" Path="Operands/Operands.project" Active="Yes"/>
+  <Project Name="Operands" Path="Operands/Operands.project" Active="No"/>
+  <Project Name="TestingForEquality" Path="TestingForEquality/TestingForEquality.project" Active="No"/>
+  <Project Name="RelationalOperators" Path="RelationalOperators/RelationalOperators.project" Active="No"/>
+  <Project Name="LogicalOperatos" Path="LogicalOperatos/LogicalOperatos.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +14,9 @@
       <Project Name="Euros" ConfigName="Debug"/>
       <Project Name="IncrementAndDecrement" ConfigName="Debug"/>
       <Project Name="Operands" ConfigName="Debug"/>
+      <Project Name="TestingForEquality" ConfigName="Debug"/>
+      <Project Name="RelationalOperators" ConfigName="Debug"/>
+      <Project Name="LogicalOperatos" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +24,9 @@
       <Project Name="Euros" ConfigName="Release"/>
       <Project Name="IncrementAndDecrement" ConfigName="Release"/>
       <Project Name="Operands" ConfigName="Release"/>
+      <Project Name="TestingForEquality" ConfigName="Release"/>
+      <Project Name="RelationalOperators" ConfigName="Release"/>
+      <Project Name="LogicalOperatos" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
