@@ -29,5 +29,37 @@ int main()
     cin >> num;
     bool withinBounds {false};
     
+    bool outsideBounds {false};
+    outsideBounds = (num < lower || num > upper);
+    //cout << num << " is outside the boundaries?\n" << outsideBounds << endl;
+    
+    
+    withinBounds = (num > lower && num < upper);
+    //cout << num << " is within the bounds?\n" << withinBounds << endl;
+    
+    bool onTheBounds {false};
+    onTheBounds = (num == lower || num == upper);
+    cout << num << " is on the bounds?\n" << onTheBounds << endl;
+    
+    bool wearCoat {false};
+    double temperature {};
+    int windSpeed {};
+    
+    const int windSpeedForCoat {25};
+    //Wind over this value requires a coat
+    const double temperatureForCoat {45};
+    //Temperature below this value requires a coat
+    
+    //Require coat if either wind is too high 
+    //OR temperature is too low
+    cout << "\nEnter the current temperature : ";
+    cin >> temperature;
+    cout << "\nEnter windspeed in (mph): ";
+    cin >> windSpeed;
+    
+    //Check whether these require a coat
+    wearCoat = (temperature < temperatureForCoat || windSpeed > windSpeedForCoat );
+    cout << "Today you should wear a coat?\n" << wearCoat << endl;
+    
     return 0;
 }

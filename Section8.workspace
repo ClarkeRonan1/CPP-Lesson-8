@@ -6,7 +6,11 @@
   <Project Name="Operands" Path="Operands/Operands.project" Active="No"/>
   <Project Name="TestingForEquality" Path="TestingForEquality/TestingForEquality.project" Active="No"/>
   <Project Name="RelationalOperators" Path="RelationalOperators/RelationalOperators.project" Active="No"/>
-  <Project Name="LogicalOperatos" Path="LogicalOperatos/LogicalOperatos.project" Active="Yes"/>
+  <Project Name="LogicalOperatos" Path="LogicalOperatos/LogicalOperatos.project" Active="No"/>
+  <Project Name="CompoundAssignment" Path="CompoundAssignment/CompoundAssignment.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
+  <Project Name="SolutionDivision" Path="SolutionDivision/SolutionDivision.project" Active="No"/>
+  <Project Name="SolutionModulo" Path="SolutionModulo/SolutionModulo.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +21,10 @@
       <Project Name="TestingForEquality" ConfigName="Debug"/>
       <Project Name="RelationalOperators" ConfigName="Debug"/>
       <Project Name="LogicalOperatos" ConfigName="Debug"/>
+      <Project Name="CompoundAssignment" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
+      <Project Name="SolutionDivision" ConfigName="Debug"/>
+      <Project Name="SolutionModulo" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +35,10 @@
       <Project Name="TestingForEquality" ConfigName="Release"/>
       <Project Name="RelationalOperators" ConfigName="Release"/>
       <Project Name="LogicalOperatos" ConfigName="Release"/>
+      <Project Name="CompoundAssignment" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
+      <Project Name="SolutionDivision" ConfigName="Release"/>
+      <Project Name="SolutionModulo" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
